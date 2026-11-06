@@ -1,0 +1,5 @@
+# Bonus challenge - BMI calculator OR temperature converter (pick one!)
+weight = float(input("Masukkan BB (kg): "))
+height = float(input("Masukkan TB (m): "))
+BMI = weight / (height ** 2)
+print("Your BMI: ",BMI)
